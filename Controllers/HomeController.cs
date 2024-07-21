@@ -13,6 +13,7 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    [Route("/anasayfa")]
     public IActionResult Index()
     {
         return View();
@@ -24,6 +25,16 @@ public class HomeController : Controller
     }
     [Route("/toplantı_ekle")]
     public IActionResult Toplantı_Ekle()
+    {
+        return View();
+    }
+    [Route("/")]
+    public IActionResult Login()
+    {
+        return View();
+    }
+    [Route("/register")]
+    public IActionResult Register()
     {
         return View();
     }
