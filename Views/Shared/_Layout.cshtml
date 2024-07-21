@@ -9,6 +9,9 @@
 
     @RenderBody()
     
+    @{
+    await Html.RenderPartialAsync("_Footer");
+}
     <!-- Js Plugins -->
     @{
         await Html.RenderPartialAsync("_Scripts");

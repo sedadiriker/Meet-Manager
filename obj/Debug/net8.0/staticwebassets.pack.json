@@ -457,6 +457,10 @@
       "PackagePath": "staticwebassets/tables.html"
     },
     {
+      "Id": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/upload/images/favicon.jpg",
+      "PackagePath": "staticwebassets/upload/images/favicon.jpg"
+    },
+    {
       "Id": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/utilities-animation.html",
       "PackagePath": "staticwebassets/utilities-animation.html"
     },
