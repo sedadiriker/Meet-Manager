@@ -30,12 +30,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Home/Tablolar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9UYWJsb2xhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/sedadiriker/Desktop/Meet-Manager/Views/Home/Toplantı_Ekle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Ub3BsYW50xLFfRWtsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/sedadiriker/Desktop/Meet-Manager/Views/Home/Toplantı_Listesi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Ub3BsYW50xLFfTGlzdGVzaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Home/Toplantı_Raporları.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Ub3BsYW50xLFfUmFwb3JsYXLEsS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/sedadiriker/Desktop/Meet-Manager/Views/Shared/Error.cshtml]

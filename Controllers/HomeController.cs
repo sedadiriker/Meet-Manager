@@ -38,6 +38,16 @@ public class HomeController : Controller
     {
         return View();
     }
+    [Route("/toplantı_raporları")]
+    public IActionResult Toplantı_Raporları()
+    {
+        return View();
+    }
+    [Route("/tablolar")]
+    public IActionResult Tablolar()
+    {
+        return View();
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
