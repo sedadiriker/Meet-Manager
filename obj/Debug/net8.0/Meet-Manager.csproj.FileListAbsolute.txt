@@ -366,3 +366,4 @@
 /Users/sedadiriker/Desktop/Meet-Manager/obj/Debug/net8.0/Meet-Manager.pdb
 /Users/sedadiriker/Desktop/Meet-Manager/obj/Debug/net8.0/Meet-Manager.genruntimeconfig.cache
 /Users/sedadiriker/Desktop/Meet-Manager/obj/Debug/net8.0/ref/Meet-Manager.dll
+/Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/package.json
