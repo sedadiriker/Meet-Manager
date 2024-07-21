@@ -1,0 +1,9 @@
+.
+./MeetingManager
+./wwwroot
+./Models
+./Properties
+./.git
+./.vscode
+./Controllers
+./Views
