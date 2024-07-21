@@ -97,6 +97,10 @@
       "PackagePath": "staticwebassets/js/calendar.js"
     },
     {
+      "Id": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/chart.js",
+      "PackagePath": "staticwebassets/js/chart.js"
+    },
+    {
       "Id": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/demo/chart-area-demo.js",
       "PackagePath": "staticwebassets/js/demo/chart-area-demo.js"
     },

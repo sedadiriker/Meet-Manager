@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kMMLkA7FWvvRJooC/XgGeiWNuQcmJGjBRGXQHw/r/JM=",
+  "Hash": "43fIPn55MQRr7GOqJxmejLnBQQiaozQrrdQt6UifsDs=",
   "Source": "Meet-Manager",
   "BasePath": "_content/Meet-Manager",
   "Mode": "Default",
@@ -433,6 +433,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/calendar.js"
+    },
+    {
+      "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/chart.js",
+      "SourceId": "Meet-Manager",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/",
+      "BasePath": "_content/Meet-Manager",
+      "RelativePath": "js/chart.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/chart.js"
     },
     {
       "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/demo/chart-area-demo.js",
