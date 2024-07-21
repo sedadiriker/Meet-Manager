@@ -17,8 +17,13 @@ public class HomeController : Controller
     {
         return View();
     }
-
-    public IActionResult Privacy()
+    [Route("/toplantı_listesi")]
+    public IActionResult Toplantı_Listesi()
+    {
+        return View();
+    }
+    [Route("/toplantı_ekle")]
+    public IActionResult Toplantı_Ekle()
     {
         return View();
     }
