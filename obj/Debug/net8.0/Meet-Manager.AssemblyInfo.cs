@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Meet-Manager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0be1944d8866e8da163c6ecf32cc9339cf983d97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd737115a435788660ece52c7c9dc32065334805")]
 [assembly: System.Reflection.AssemblyProductAttribute("Meet-Manager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Meet-Manager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
