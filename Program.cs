@@ -1,4 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using Meet_Manager.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// DbContext'i servisler listesine ekleme
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(connectionString));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
