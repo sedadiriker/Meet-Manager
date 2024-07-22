@@ -4,6 +4,7 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using Meet_Manager.Data;
+using Meet_Manager.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -59,7 +60,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 
 // JWT Authentication yapılandırması
-var jwtSecretKey = "Password1"; 
+var jwtSecretKey = "YourStrong@JwtSecretKey1234567890"; 
 var key = Encoding.ASCII.GetBytes(jwtSecretKey);
 builder.Services.AddAuthentication(x =>
 {
@@ -80,6 +81,10 @@ builder.Services.AddAuthentication(x =>
 });
 
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+// Servislerin eklenmesi
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
 
 var app = builder.Build();
 

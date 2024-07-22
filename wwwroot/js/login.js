@@ -1,8 +1,7 @@
-
 document.addEventListener("DOMContentLoaded", () => {
   const loginForm = document.getElementById("loginForm");
 
-  document.getElementById("loginForm").addEventListener("submit", async (e) => {
+  loginForm.addEventListener("submit", async (e) => {
     e.preventDefault();
 
     const email = document.getElementById("email").value;
@@ -15,16 +14,25 @@ document.addEventListener("DOMContentLoaded", () => {
         password: password,
       });
 
+      console.log("API Yanıtı:", response.data);
+
       if (response.status === 200) {
-        alert("Login successful");
-        console.log("Token:", response.data.Token);
-        window.location.href = "/anasayfa";
+        const token = response.data.token; // Token'ı küçük harfle alın
+        console.log("Alınan Token:", token); // Token'ı kontrol edin
+
+        if (token) {
+          localStorage.setItem("token", token); // Token'ı localStorage'a yazın
+          alert("Giriş başarılı");
+          window.location.href = "/anasayfa"; // Yönlendirme
+        } else {
+          throw new Error("Token alınamadı");
+        }
       } else {
-        throw new Error("Login failed");
+        throw new Error("Giriş başarısız");
       }
     } catch (error) {
-      alert("Login failed");
-      console.error("Error:", error);
+      console.error("Hata:", error.message);
+      alert("Giriş başarısız");
     }
   });
 });
