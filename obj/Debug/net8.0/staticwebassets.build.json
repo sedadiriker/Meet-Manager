@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xgAs4khSZ0/d7wCFrfS6mDKS1D5Eq2DnwUbub5ky0EQ=",
+  "Hash": "Sh2J1Okl6MeKhK901p1tRh9Tqg8HrNmsaNP8CIDk+8A=",
   "Source": "Meet-Manager",
   "BasePath": "_content/Meet-Manager",
   "Mode": "Default",
@@ -435,12 +435,12 @@
       "OriginalItemSpec": "wwwroot/js/chart.js"
     },
     {
-      "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/demo/chart-area-demo.js",
+      "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/login.js",
       "SourceId": "Meet-Manager",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/",
       "BasePath": "_content/Meet-Manager",
-      "RelativePath": "js/demo/chart-area-demo.js",
+      "RelativePath": "js/login.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -451,15 +451,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/demo/chart-area-demo.js"
+      "OriginalItemSpec": "wwwroot/js/login.js"
     },
     {
-      "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/demo/chart-bar-demo.js",
+      "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/register.js",
       "SourceId": "Meet-Manager",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/",
       "BasePath": "_content/Meet-Manager",
-      "RelativePath": "js/demo/chart-bar-demo.js",
+      "RelativePath": "js/register.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -470,45 +470,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/demo/chart-bar-demo.js"
-    },
-    {
-      "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/demo/chart-pie-demo.js",
-      "SourceId": "Meet-Manager",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/",
-      "BasePath": "_content/Meet-Manager",
-      "RelativePath": "js/demo/chart-pie-demo.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/demo/chart-pie-demo.js"
-    },
-    {
-      "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/demo/datatables-demo.js",
-      "SourceId": "Meet-Manager",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/",
-      "BasePath": "_content/Meet-Manager",
-      "RelativePath": "js/demo/datatables-demo.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/demo/datatables-demo.js"
+      "OriginalItemSpec": "wwwroot/js/register.js"
     },
     {
       "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/sb-admin-2.js",
@@ -2221,12 +2183,12 @@
       "OriginalItemSpec": "wwwroot/tables.html"
     },
     {
-      "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/upload/images/favicon.jpg",
+      "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/uploads/images/favicon.jpg",
       "SourceId": "Meet-Manager",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/",
       "BasePath": "_content/Meet-Manager",
-      "RelativePath": "upload/images/favicon.jpg",
+      "RelativePath": "uploads/images/favicon.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2237,7 +2199,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/upload/images/favicon.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/images/favicon.jpg"
     },
     {
       "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/utilities-animation.html",

@@ -97,20 +97,12 @@
       "PackagePath": "staticwebassets/js/chart.js"
     },
     {
-      "Id": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/demo/chart-area-demo.js",
-      "PackagePath": "staticwebassets/js/demo/chart-area-demo.js"
+      "Id": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/login.js",
+      "PackagePath": "staticwebassets/js/login.js"
     },
     {
-      "Id": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/demo/chart-bar-demo.js",
-      "PackagePath": "staticwebassets/js/demo/chart-bar-demo.js"
-    },
-    {
-      "Id": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/demo/chart-pie-demo.js",
-      "PackagePath": "staticwebassets/js/demo/chart-pie-demo.js"
-    },
-    {
-      "Id": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/demo/datatables-demo.js",
-      "PackagePath": "staticwebassets/js/demo/datatables-demo.js"
+      "Id": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/register.js",
+      "PackagePath": "staticwebassets/js/register.js"
     },
     {
       "Id": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/sb-admin-2.js",
@@ -461,8 +453,8 @@
       "PackagePath": "staticwebassets/tables.html"
     },
     {
-      "Id": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/upload/images/favicon.jpg",
-      "PackagePath": "staticwebassets/upload/images/favicon.jpg"
+      "Id": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/uploads/images/favicon.jpg",
+      "PackagePath": "staticwebassets/uploads/images/favicon.jpg"
     },
     {
       "Id": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/utilities-animation.html",
