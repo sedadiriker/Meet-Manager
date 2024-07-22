@@ -1,7 +1,9 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
-using Meet_Manager.Data;
 using Microsoft.OpenApi.Models;
-
+using System.Text;
+using Microsoft.IdentityModel.Tokens;
+using Meet_Manager.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,21 +20,39 @@ builder.Services.AddSwaggerGen(options =>
         Version = "v1"
     });
 
-    // HomeController'ı Swagger'dan hariç tutun
     options.DocInclusionPredicate((docName, apiDesc) =>
     {
         var controller = apiDesc.ActionDescriptor.RouteValues["controller"];
-        return controller != "Home"; // HomeController'ı hariç tutun
+        return controller != "Home"; 
     });
 });
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-// DbContext'i servisler listesine ekleme
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-// Add services to the container.
+// JWT Authentication yapılandırması
+var jwtSecretKey = "Password1"; 
+var key = Encoding.ASCII.GetBytes(jwtSecretKey);
+builder.Services.AddAuthentication(x =>
+{
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(x =>
+{
+    x.RequireHttpsMetadata = false;
+    x.SaveToken = true;
+    x.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key),
+        ValidateIssuer = false,
+        ValidateAudience = false
+    };
+});
+
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 var app = builder.Build();
@@ -44,14 +64,14 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-// Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "Meet Management System API V1");
-        c.RoutePrefix = "swagger"; // Swagger UI'yi kök URL'de gösterir
+        c.RoutePrefix = "swagger";
     });
 }
 
@@ -60,6 +80,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication(); 
 app.UseAuthorization();
 
 app.MapControllers();

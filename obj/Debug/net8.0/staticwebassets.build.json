@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Sh2J1Okl6MeKhK901p1tRh9Tqg8HrNmsaNP8CIDk+8A=",
+  "Hash": "x7LlCwJqTvMoauijqlfLNSKu3BGXpa8i1+bUoRLhRFE=",
   "Source": "Meet-Manager",
   "BasePath": "_content/Meet-Manager",
   "Mode": "Default",
@@ -2200,6 +2200,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/uploads/images/favicon.jpg"
+    },
+    {
+      "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/uploads/istockphoto-1055387324-612x612.jpg",
+      "SourceId": "Meet-Manager",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/",
+      "BasePath": "_content/Meet-Manager",
+      "RelativePath": "uploads/istockphoto-1055387324-612x612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/istockphoto-1055387324-612x612.jpg"
     },
     {
       "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/utilities-animation.html",

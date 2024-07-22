@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Meet_Manager.Models;
 using System.Collections.Generic;
@@ -6,6 +7,7 @@ namespace Meet_Manager.src.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize] 
     public class MeetingsController : ControllerBase
     {
         // GET: api/meetings
