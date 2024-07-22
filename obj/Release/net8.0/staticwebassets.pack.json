@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/sedadiriker/Desktop/Meet-Manager/obj/Release/net8.0/scopedcss/projectbundle/Meet-Manager.bundle.scp.css",
+      "PackagePath": "staticwebassets/Meet-Manager.bundle.scp.css"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.Meet-Manager.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.build.Meet-Manager.props",
+      "PackagePath": "build\\Meet-Manager.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.Meet-Manager.props",
+      "PackagePath": "buildMultiTargeting\\Meet-Manager.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.Meet-Manager.props",
+      "PackagePath": "buildTransitive\\Meet-Manager.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

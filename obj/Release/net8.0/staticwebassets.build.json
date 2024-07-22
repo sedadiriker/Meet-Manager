@@ -1,0 +1,50 @@
+{
+  "Version": 1,
+  "Hash": "/0gE0rsie4/ZwHxxbP33df0XLqdUXZLL6YENbv0/2TE=",
+  "Source": "Meet-Manager",
+  "BasePath": "_content/Meet-Manager",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [
+    {
+      "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/obj/Release/net8.0/scopedcss/bundle/Meet-Manager.styles.css",
+      "SourceId": "Meet-Manager",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/sedadiriker/Desktop/Meet-Manager/obj/Release/net8.0/scopedcss/bundle/",
+      "BasePath": "_content/Meet-Manager",
+      "RelativePath": "Meet-Manager.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/sedadiriker/Desktop/Meet-Manager/obj/Release/net8.0/scopedcss/bundle/Meet-Manager.styles.css"
+    },
+    {
+      "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/obj/Release/net8.0/scopedcss/projectbundle/Meet-Manager.bundle.scp.css",
+      "SourceId": "Meet-Manager",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/sedadiriker/Desktop/Meet-Manager/obj/Release/net8.0/scopedcss/projectbundle/",
+      "BasePath": "_content/Meet-Manager",
+      "RelativePath": "Meet-Manager.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/sedadiriker/Desktop/Meet-Manager/obj/Release/net8.0/scopedcss/projectbundle/Meet-Manager.bundle.scp.css"
+    }
+  ]
+}
