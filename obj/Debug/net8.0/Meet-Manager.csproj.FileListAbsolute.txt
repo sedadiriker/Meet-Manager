@@ -445,3 +445,16 @@
 /Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /Users/sedadiriker/Desktop/Meet-Manager/obj/Debug/net8.0/scopedcss/src/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/out/web.config
+/Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/out/appsettings.Development.json
+/Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/out/appsettings.json
+/Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/out/Meet-Manager.deps.json
+/Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/out/Meet-Manager.runtimeconfig.json
+/Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/out/package.json
+/Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/out/src/wwwroot/package-lock.json
+/Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/out/src/wwwroot/package.json
+/Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/out/src/wwwroot/vendor/fontawesome-free/package.json
+/Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -2,7 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Meet_Manager.Models;
 
-namespace Meet_Manager.Controllers;
+namespace Meet_Manager.src.Api.Controllers;
 
 public class HomeController : Controller
 {
