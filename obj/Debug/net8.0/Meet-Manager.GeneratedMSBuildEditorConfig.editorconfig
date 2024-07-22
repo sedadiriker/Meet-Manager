@@ -18,86 +18,86 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = /Users/sedadiriker/Desktop/Meet-Manager
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL0hvbWUvSW5kZXguY3NodG1s
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Home/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL0hvbWUvTG9naW4uY3NodG1s
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Home/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL0hvbWUvUmVnaXN0ZXIuY3NodG1s
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Home/Tablolar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL0hvbWUvVGFibG9sYXIuY3NodG1s
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Home/Tablolar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9UYWJsb2xhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Home/Toplantı_Ekle.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL0hvbWUvVG9wbGFudMSxX0VrbGUuY3NodG1s
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Home/Toplantı_Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Ub3BsYW50xLFfRWtsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Home/Toplantı_Listesi.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL0hvbWUvVG9wbGFudMSxX0xpc3Rlc2kuY3NodG1s
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Home/Toplantı_Listesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Ub3BsYW50xLFfTGlzdGVzaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Home/Toplantı_Raporları.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL0hvbWUvVG9wbGFudMSxX1JhcG9ybGFyxLEuY3NodG1s
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Home/Toplantı_Raporları.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Ub3BsYW50xLFfUmFwb3JsYXLEsS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL1NoYXJlZC9FcnJvci5jc2h0bWw=
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Shared/_Footer.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL1NoYXJlZC9fRm9vdGVyLmNzaHRtbA==
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Shared/_Head.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL1NoYXJlZC9fSGVhZC5jc2h0bWw=
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Shared/_Head.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19IZWFkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Shared/_LoginLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL1NoYXJlZC9fTG9naW5MYXlvdXQuY3NodG1s
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Shared/_LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Shared/_LogoutModal.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL1NoYXJlZC9fTG9nb3V0TW9kYWwuY3NodG1s
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Shared/_LogoutModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dvdXRNb2RhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Shared/_RegisterLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL1NoYXJlZC9fUmVnaXN0ZXJMYXlvdXQuY3NodG1s
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Shared/_RegisterLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19SZWdpc3RlckxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Shared/_Scripts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL1NoYXJlZC9fU2NyaXB0cy5jc2h0bWw=
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Shared/_Scripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19TY3JpcHRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Shared/_ScrollTopBtn.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL1NoYXJlZC9fU2Nyb2xsVG9wQnRuLmNzaHRtbA==
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Shared/_ScrollTopBtn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19TY3JvbGxUb3BCdG4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Shared/_Sidebar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL1NoYXJlZC9fU2lkZWJhci5jc2h0bWw=
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19TaWRlYmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Shared/_Topbar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL1NoYXJlZC9fVG9wYmFyLmNzaHRtbA==
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Shared/_Topbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Ub3BiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL1NoYXJlZC9fVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL19WaWV3SW1wb3J0cy5jc2h0bWw=
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL19WaWV3U3RhcnQuY3NodG1s
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sedadiriker/Desktop/Meet-Manager/src/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = c3JjL1ZpZXdzL1NoYXJlZC9fTGF5b3V0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = b-v696mo1uy4
+[/Users/sedadiriker/Desktop/Meet-Manager/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9son3wl6vg
