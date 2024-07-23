@@ -456,3 +456,4 @@
 /Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/sedadiriker/Desktop/Meet-Manager/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/sedadiriker/Desktop/Meet-Manager/bin/Debug/net8.0/package-lock.json

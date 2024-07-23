@@ -1,11 +1,9 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Meet_Manager.Models;
-using Microsoft.AspNetCore.Authorization;
 
 namespace Meet_Manager.src.Api.Controllers
 {
-    [Authorize] 
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -18,44 +16,49 @@ namespace Meet_Manager.src.Api.Controllers
         [Route("/anasayfa")]
         public IActionResult Index()
         {
+            // Token kontrolü kaldırıldı
             return View();
         }
 
         [Route("/toplantı_listesi")]
         public IActionResult Toplantı_Listesi()
         {
+            // Token kontrolü kaldırıldı
             return View();
         }
 
         [Route("/toplantı_ekle")]
         public IActionResult Toplantı_Ekle()
         {
+            // Token kontrolü kaldırıldı
             return View();
         }
 
-        [AllowAnonymous] 
         [Route("/")]
         public IActionResult Login()
         {
+            // Token kontrolü kaldırıldı
             return View();
         }
 
-        [AllowAnonymous] 
         [Route("/register")]
         public IActionResult Register()
         {
+            // Token kontrolü kaldırıldı
             return View();
         }
 
         [Route("/toplantı_raporları")]
         public IActionResult Toplantı_Raporları()
         {
+            // Token kontrolü kaldırıldı
             return View();
         }
 
         [Route("/tablolar")]
         public IActionResult Tablolar()
         {
+            // Token kontrolü kaldırıldı
             return View();
         }
 

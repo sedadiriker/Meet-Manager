@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using Meet_Manager.Data;
 using Meet_Manager.Services;
@@ -54,6 +55,18 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
+// CORS politikası ekleme
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
+
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -62,23 +75,20 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // JWT Authentication yapılandırması
 var jwtSecretKey = "YourStrong@JwtSecretKey1234567890"; 
 var key = Encoding.ASCII.GetBytes(jwtSecretKey);
-builder.Services.AddAuthentication(x =>
-{
-    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-})
-.AddJwtBearer(x =>
-{
-    x.RequireHttpsMetadata = false;
-    x.SaveToken = true;
-    x.TokenValidationParameters = new TokenValidationParameters
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
     {
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(key),
-        ValidateIssuer = false,
-        ValidateAudience = false
-    };
-});
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = "http://localhost:5229", 
+            ValidAudience = "http://localhost:5229", 
+            IssuerSigningKey = new SymmetricSecurityKey(key)
+        };
+    });
 
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
@@ -92,7 +102,6 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -111,12 +120,70 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication(); 
+// CORS middleware'i ekleme
+app.UseCors("AllowAll");
+
+app.UseAuthentication();
 app.UseAuthorization();
+
+// Token doğrulama ve yönlendirme
+// app.Use(async (context, next) =>
+// {
+//     var path = context.Request.Path.Value;
+
+//     // Log path
+//     System.Console.WriteLine($"Requested Path: {path}");
+
+//     // Giriş sayfasına yönlendirme kontrolü
+//     if (path == "/anasayfa" || path == "/toplantı_listesi" || path == "/toplantı_ekle")
+//     {
+//         var token = context.Request.Headers["Authorization"].ToString().Replace("Bearer ", "").Trim();
+
+//         // Token'u konsola yazdır
+//         System.Console.WriteLine($"Token: '{token}'");
+
+//         if (string.IsNullOrEmpty(token))
+//         {
+//             context.Response.Redirect("/");
+//             return;
+//         }
+
+//         try
+//         {
+//             var tokenHandler = new JwtSecurityTokenHandler();
+//             var validationParameters = new TokenValidationParameters
+//             {
+//                 ValidateIssuer = true,
+//                 ValidateAudience = true,
+//                 ValidateIssuerSigningKey = true,
+//                 IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("YourStrong@JwtSecretKey1234567890")),
+//                 ValidateLifetime = true,
+//                 ValidIssuer = "http://localhost:5229",
+//                 ValidAudience = "http://localhost:5229"
+//             };
+
+//             tokenHandler.ValidateToken(token, validationParameters, out var validatedToken);
+
+//             if (validatedToken == null)
+//             {
+//                 context.Response.Redirect("/");
+//                 return;
+//             }
+//         }
+//         catch (Exception ex)
+//         {
+//             System.Console.WriteLine($"Token doğrulama hatası: {ex.Message}");
+//             context.Response.Redirect("/");
+//             return;
+//         }
+//     }
+
+//     await next();
+// });
 
 app.MapControllers();
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Login}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
