@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (logoutButton) {
         logoutButton.addEventListener('click', function() {
             localStorage.removeItem('token');
+            localStorage.removeItem('user');
 
             window.location.href = '/';
         });

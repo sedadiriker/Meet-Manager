@@ -38,7 +38,8 @@ public async Task<IActionResult> Login([FromBody] LoginRequest loginRequest)
         { 
             user.FirstName, 
             user.LastName,
-            user.Email 
+            user.Email, 
+            user.ProfilePicture
         } 
         
     });
