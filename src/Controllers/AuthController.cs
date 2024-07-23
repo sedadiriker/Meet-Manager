@@ -19,19 +19,31 @@ namespace Meet_Manager.src.Api.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginRequest loginRequest)
-        {
-            var user = await _userService.AuthenticateAsync(loginRequest.Email, loginRequest.Password);
-            
-            if (user == null)
-            {
-                return Unauthorized("Invalid credentials");
-            }
+public async Task<IActionResult> Login([FromBody] LoginRequest loginRequest)
+{
+    var user = await _userService.AuthenticateAsync(loginRequest.Email, loginRequest.Password);
+    
+    if (user == null)
+    {
+        return Unauthorized("Geçersiz kimlik bilgileri");
+    }
 
-            var token = _tokenService.GenerateToken(user);
-            
-            return Ok(new { Token = token });
-        }
+    var token = _tokenService.GenerateToken(user);
+
+    
+    return Ok(new 
+    { 
+        Token = token,
+        User = new 
+        { 
+            user.FirstName, 
+            user.LastName,
+            user.Email 
+        } 
+        
+    });
+}
+
     }
 
     public class LoginRequest

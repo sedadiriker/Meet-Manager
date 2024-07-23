@@ -16,7 +16,7 @@ namespace Meet_Manager.Services
 
         public async Task<User> AuthenticateAsync(string email, string password)
         {
-            // Şifre hashleme ve doğrulama yapılmalı
+            
             return await _context.Users
                 .FirstOrDefaultAsync(u => u.Email == email && u.Password == password);
         }

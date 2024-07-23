@@ -101,6 +101,10 @@
       "PackagePath": "staticwebassets/js/login.js"
     },
     {
+      "Id": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/logout.js",
+      "PackagePath": "staticwebassets/js/logout.js"
+    },
+    {
       "Id": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/register.js",
       "PackagePath": "staticwebassets/js/register.js"
     },

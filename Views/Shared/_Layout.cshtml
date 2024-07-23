@@ -34,6 +34,7 @@
     @{
         await Html.RenderPartialAsync("_ScrollTopBtn");
     }
+
     @{
         await Html.RenderPartialAsync("_LogoutModal");
     }
@@ -45,17 +46,19 @@
     @{
         await Html.RenderPartialAsync("_Scripts");
     }
-    <script>
-  document.addEventListener("DOMContentLoaded", () => {
+
+
+    @* <script>
+    document.addEventListener("DOMContentLoaded", () => {
     const token = localStorage.getItem("token");
 
     if (!token) {
-      window.location.href = "/";
+    window.location.href = "/";
     } else {
-      axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
+    axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
     }
-  });
-</script>
+    });
+    </script> *@
 
 
 

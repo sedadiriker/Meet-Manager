@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x7LlCwJqTvMoauijqlfLNSKu3BGXpa8i1+bUoRLhRFE=",
+  "Hash": "cMkYUYVdw6QbXLkaaASO0TTzX8amPjHZEoyIGEE28NM=",
   "Source": "Meet-Manager",
   "BasePath": "_content/Meet-Manager",
   "Mode": "Default",
@@ -452,6 +452,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/login.js"
+    },
+    {
+      "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/logout.js",
+      "SourceId": "Meet-Manager",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/",
+      "BasePath": "_content/Meet-Manager",
+      "RelativePath": "js/logout.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/logout.js"
     },
     {
       "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/js/register.js",
