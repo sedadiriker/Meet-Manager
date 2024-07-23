@@ -4,7 +4,7 @@
     await Html.RenderPartialAsync("_Head");
 }
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-primary d-flex align-items-center" style="min-height: 100vh;">
     @RenderBody()
     @{
         await Html.RenderPartialAsync("_Scripts");

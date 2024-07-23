@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nPmL42HSTbx8vGmfDbqjLMXWSxFFBhA3+tGgUooa4jU=",
+  "Hash": "4GODcFboeJSUtYz/xMdL+aIXwz87K/ZZaLospiG5XMo=",
   "Source": "Meet-Manager",
   "BasePath": "_content/Meet-Manager",
   "Mode": "Default",
@@ -2238,6 +2238,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/uploads/images/favicon.jpg"
+    },
+    {
+      "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/uploads/images/login.jpg",
+      "SourceId": "Meet-Manager",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/",
+      "BasePath": "_content/Meet-Manager",
+      "RelativePath": "uploads/images/login.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/images/login.jpg"
     },
     {
       "Identity": "/Users/sedadiriker/Desktop/Meet-Manager/wwwroot/uploads/istockphoto-1055387324-612x612.jpg",
