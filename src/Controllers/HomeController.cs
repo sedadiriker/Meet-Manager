@@ -55,6 +55,11 @@ namespace Meet_Manager.src.Api.Controllers
         {
             return View();
         }
+        [Route("/profil")]
+        public IActionResult Profil()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

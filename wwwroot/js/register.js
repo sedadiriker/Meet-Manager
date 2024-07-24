@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const URL = "http://localhost:5229/api";
   
       try {
-        const response = await axios.post(`${URL}/auth/register`, formData, {
+        const response = await axios.post(`${URL}/Auth/register`, formData, {
           headers: {
             'Content-Type': 'multipart/form-data'
           }

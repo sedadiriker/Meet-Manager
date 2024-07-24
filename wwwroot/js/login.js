@@ -51,7 +51,6 @@ document.getElementById("loginForm").addEventListener("submit", (e) => {
 login(email,password)
 
 const user = JSON.parse(localStorage.getItem('user'));
-
 console.log(user)
 
   if (user && user.FirstName) {
